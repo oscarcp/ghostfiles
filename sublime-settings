@@ -1,0 +1,23 @@
+{
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"font_face": "Terminus",
+	"font_size": 9,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"ignored_words":
+	[
+		"Grappelli"
+	],
+	"rulers":
+	[
+		80
+	],
+	"spell_check": false,
+	"tab_size": 4,
+	"translate_tabs_to_spaces": true,
+	"highlight_modified_tabs": true,
+	"ensure_newline_at_eof_on_save": true,
+	"trim_trailing_white_space_on_save": true,
+}

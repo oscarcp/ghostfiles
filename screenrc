@@ -1,0 +1,30 @@
+vbell off
+hardstatus alwayslastline
+hardstatus string '%{= kG}[ %{G}%H %{g}][%= %{=kw}%?%-Lw%?%{r}(%{W}%n-%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{B}%d-%m-%Y %{W}%c %{g}]'
+
+startup_message off
+
+# Set messages timeout to seconds
+msgwait 3
+
+# Bigger buffer
+defscrollback 10000
+
+vbell off
+bell " %n %t PEGGG!"
+
+# nethack Messages
+nethack on
+
+caption splitonly "%2n %t"
+
+# bind s
+# se arreglaba con ca q
+#
+defutf8 on
+
+termcapinfo xterm|xterms|xs|rxvt ti@:te@
+shelltitle "$ |bash"
+
+#escape ^Bb
+
