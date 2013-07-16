@@ -8,7 +8,7 @@ vimrc
 
 Original vimrc file from: Amir Salihefendic <amix@amix.dk>
 
-No modifications yet.
+* Column highlight color changes when in insert mode
 
 How to install
 ..............
