@@ -24,6 +24,7 @@ vimrc
 Original vimrc file from: Amir Salihefendic <amix@amix.dk>
 
 Changes:
+* Added line numbers
 * Column highlight color changes when in insert mode
 
 How to install
