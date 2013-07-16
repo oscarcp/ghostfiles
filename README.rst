@@ -7,10 +7,10 @@ gitconfig
 ---------
 
 Configuration for GIT, includes tons of aliases and customizations.
-Original gitconfig file: Someone (can't rememer, but thanks!)
+Original gitconfig file: Someone (can't remember, but thanks!)
 
 Changes:
-* Started porting to Linux
+    * Started porting to Linux
 
 gitignore_global
 ................
@@ -51,9 +51,9 @@ How to install
 ..............
 
 [For Linux] Copy and rename the file to this directory inside your home folder,
-where N is your sublime text version (2 or 3):
+where N is your sublime text version (2 or 3)::
 
-.config/sublime-text-N/Packages/User/Preferences.sublime-settings
+    .config/sublime-text-N/Packages/User/Preferences.sublime-settings
 
 screenrc
 --------
