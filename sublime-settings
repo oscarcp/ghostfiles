@@ -1,7 +1,9 @@
 {
 	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"ensure_newline_at_eof_on_save": true,
 	"font_face": "Terminus",
-	"font_size": 9,
+	"font_size": 11,
+	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
 		"Vintage"
@@ -17,7 +19,8 @@
 	"spell_check": false,
 	"tab_size": 4,
 	"translate_tabs_to_spaces": true,
-	"highlight_modified_tabs": true,
-	"ensure_newline_at_eof_on_save": true,
 	"trim_trailing_white_space_on_save": true,
+	"soda_classic_tabs": true,
+	"soda_folder_icons": true,
+	"theme": "Soda Dark 3.sublime-theme",
 }
