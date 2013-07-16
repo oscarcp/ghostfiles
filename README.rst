@@ -20,6 +20,15 @@ sublime-settings
 
 Minimal configuration set for Sublime Text. Compatible with 2 and 3.
 
+Requirements
+............
+
+- Sublime Package Control
+- Soda Theme (installable via Package Control)
+
+.. note:: Don't worry if you start Sublime without the requirements.
+          It'll start with the default configuration.
+
 How to install
 ..............
 
