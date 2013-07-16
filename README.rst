@@ -13,7 +13,7 @@ Changes:
 * Started porting to Linux
 
 gitignore_global
-----------------
+................
 
 This file is part of the gitconfig. It contains the most common ignored files
 and extensions in the repositories. Of course, you'll have to add your own probably.
