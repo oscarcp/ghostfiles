@@ -1,14 +1,14 @@
 # core {{{
 [core]
     editor = /usr/bin/vim
-    excludesfile = /Users/USERNAME/.gitignore_global
+    excludesfile = /home/oscarcp/.gitignore_global
     pager=less -x4
 
 #}}}
 # user {{{
 [user]
-    name = YourNameHere
-    email = YourEmailHere
+    name = Oscar Carballal Prego
+    email = info@oscarcp.com
 [credential]
     helper = cache
 
@@ -52,7 +52,7 @@
 # difftools {{{
 [difftool "sourcetree"]
     cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-    path = 
+    path =
 [mergetool "sourcetree"]
     cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
     trustExitCode = true
@@ -76,7 +76,7 @@
     ai = add --interactive
 
     co = checkout
-    br = branch 
+    br = branch
     #"!git branch -ra | grep -v done"
     bra = branch -ra
     #list commands

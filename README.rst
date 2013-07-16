@@ -3,11 +3,27 @@ GhostFiles
 
 Personal dotfiles repository. Feel free to use it.
 
+gitconfig
+---------
+
+Configuration for GIT, includes tons of aliases and customizations.
+Original gitconfig file: Someone (can't rememer, but thanks!)
+
+Changes:
+* Started porting to Linux
+
+gitignore_global
+----------------
+
+This file is part of the gitconfig. It contains the most common ignored files
+and extensions in the repositories. Of course, you'll have to add your own probably.
+
 vimrc
 -----
 
 Original vimrc file from: Amir Salihefendic <amix@amix.dk>
 
+Changes:
 * Column highlight color changes when in insert mode
 
 How to install
@@ -25,6 +41,7 @@ Requirements
 
 - Sublime Package Control
 - Soda Theme (installable via Package Control)
+- Terminus font
 
 .. note:: Don't worry if you start Sublime without the requirements.
           It'll start with the default configuration.
