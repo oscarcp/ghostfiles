@@ -48,6 +48,9 @@ au WinLeave * set nocursorline nocursorcolumn
 au WinEnter * set cursorline cursorcolumn
 set cursorline cursorcolumn
 
+" Change the colour of the column highlight if we are in insert mode
+autocmd InsertEnter * highlight  CursorColumn cterm=NONE ctermbg=white ctermfg=white guibg=darkred guifg=white
+
 " Sets how many lines of history VIM has to remember
 set history=700
 
@@ -115,6 +118,9 @@ set showmatch
 " How many tenths of a second to blink when matching brackets
 set mat=2
 
+" Show line numbers
+set nu
+
 " No annoying sound on errors
 set noerrorbells
 set novisualbell
@@ -128,7 +134,7 @@ set tm=500
 " Enable syntax highlighting
 syntax enable 
 
-colorscheme desert
+colorscheme elflord
 set background=dark
 
 " Set extra options when running in GUI mode
