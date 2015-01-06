@@ -1,3 +1,60 @@
+*.py[cod]
+
+# C extensions
+*.so
+
+# Packages
+*.egg
+*.egg-info
+*.log
+*.log.*
+dist
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+lib
+lib64
+__pycache__
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+.tox
+nosetests.xml
+
+# Translations
+*.mo
+
+# Osx specific
+.DS_Store
+__MACOSX/
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+**/development.py
+*.sqlite3
+
+# Frontend scripts
+bower_components/
+node_modules/
+package
+npm-debug.log
+.sass-cache
+docs/js/*
+
+# Migrations
+migrations/
+
+
 *.pyc
 ._*
 .DS*
