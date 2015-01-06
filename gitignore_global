@@ -20,6 +20,28 @@ develop-eggs
 lib
 lib64
 __pycache__
+._*
+.DS*
+*.db
+*.db-journal
+*.ps
+*.dvi
+*.toc
+*.log
+*.aux
+_build*
+*~
+.svn*
+.epio*
+epio*
+*.swp
+*.shx
+*.shp
+*.qpj
+*.prj
+*.dbf
+*.idea*
+*.egg-info
 
 # Installer logs
 pip-log.txt
@@ -53,28 +75,3 @@ docs/js/*
 
 # Migrations
 migrations/
-
-
-*.pyc
-._*
-.DS*
-*.db
-*.db-journal
-*.ps
-*.dvi
-*.toc
-*.log
-*.aux
-_build*
-*~
-.svn*
-.epio*
-epio*
-*.swp
-*.shx
-*.shp
-*.qpj
-*.prj
-*.dbf
-*.idea*
-*.egg-info
