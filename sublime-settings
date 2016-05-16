@@ -1,9 +1,10 @@
 {
-	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"color_scheme": "Packages/User/Material-Theme-Darker (Flake8Lint).tmTheme",
 	"ensure_newline_at_eof_on_save": true,
 	"font_face": "Terminus",
-	"font_size": 10,
+	"font_size": 9,
 	"highlight_modified_tabs": true,
+    "save_on_focus_lost": true,
 	"ignored_packages":
 	[
 		"Vintage"
@@ -14,13 +15,13 @@
 	],
 	"rulers":
 	[
-		80
+		80,
+		120
 	],
 	"spell_check": false,
 	"tab_size": 4,
+	"theme": "Material-Theme-Darker.sublime-theme",
 	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": true,
-	"soda_classic_tabs": true,
-	"soda_folder_icons": true,
-	"theme": "Soda Dark 3.sublime-theme",
+	"trim_trailing_white_space_on_save": true
 }
+
