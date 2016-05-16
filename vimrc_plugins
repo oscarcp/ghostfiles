@@ -1,0 +1,6 @@
+set number
+set numberwidth=4
+set colorcolumn=80,120
+highlight ColorColumn ctermbg=8
+set cursorline
+set cursorcolumn
