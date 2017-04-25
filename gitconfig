@@ -8,7 +8,7 @@
 # user {{{
 [user]
     name = Oscar Carballal Prego
-    email = info@oscarcp.com
+    email = oscar@oscarcp.com
 [credential]
     helper = cache
 
