@@ -1,10 +1,27 @@
 {
+	"caret_extra_bottom": 0,
+	"caret_extra_top": 0,
+	"caret_extra_width": 0,
+	"caret_style": "phase",
 	"color_scheme": "Packages/User/Material-Theme-Darker (Flake8Lint).tmTheme",
+	"copy_with_empty_selection": false,
+	"default_encoding": "UTF-8",
+	"dpi_scale": 0.8,
 	"ensure_newline_at_eof_on_save": true,
-	"font_face": "Terminus",
-	"font_size": 9,
+	"fade_fold_buttons": false,
+	"fold_buttons": true,
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".hg",
+		"CVS",
+		".git",
+		"__pycache__"
+	],
+	"font_face": "xos4 Terminus",
+	"font_size": 11,
+	"highlight_line": true,
 	"highlight_modified_tabs": true,
-    "save_on_focus_lost": true,
 	"ignored_packages":
 	[
 		"Vintage"
@@ -13,16 +30,30 @@
 	[
 		"Grappelli"
 	],
+	"indent_guide_options":
+	[
+		"draw_active"
+	],
+	"line_numbers": true,
+	"margin": 4,
+	"material_theme_big_fileicons": true,
+	"material_theme_compact_sidebar": true,
+	"material_theme_small_statusbar": true,
+	"material_theme_tabs_autowidth": true,
 	"rulers":
 	[
 		80,
 		120
 	],
+	"save_on_focus_lost": true,
+	"shift_tab_unindent": true,
+	"show_encoding": true,
+	"show_line_endings": true,
 	"spell_check": false,
 	"tab_size": 4,
 	"theme": "Material-Theme-Darker.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
-	"save_on_focus_lost": true
+	"use_tab_stops": true,
+	"wrap_width": 120
 }
-
