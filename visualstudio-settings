@@ -1,5 +1,5 @@
 {
-    "editor.fontFamily": "'Terminus (TTF) for Windows'",
+    "editor.fontFamily": "'Terminus (TTF)', 'Hermit', 'IBM Plex Mono'",
     "editor.fontSize": 12,
     "editor.insertSpaces": true,
     "editor.wordWrap": "off",
@@ -12,14 +12,14 @@
     "editor.mouseWheelZoom": true,
     "editor.smoothScrolling": true,
     "editor.mouseWheelScrollSensitivity": 3,
-    "workbench.colorTheme": "Material Theme",
+    "workbench.colorTheme": "Material Theme Darker",
     "python.venvFolders": [
         "envs",
         ".pyenv",
         ".direnv",
         "venv",
     ],
-    "python.venvPath": "~/pyenvs",
+    "python.venvPath": "/home/oscarcp/.local/share/virtualenvs",
     "python.autoComplete.addBrackets": true,
     "python.linting.enabled": true,
     "workbench.colorCustomizations": {
@@ -53,5 +53,17 @@
     "terminal.external.linuxExec": "terminator",
     "telemetry.enableCrashReporter": false,
     "telemetry.enableTelemetry": false,
-    "git.autofetch": true
+    "git.autofetch": true,
+    "workbench.iconTheme": "eq-material-theme-icons-darker",
+    "terminal.integrated.fontFamily": "'Terminus (TTF)', 'Hermit', 'IBM Plex Mono'",
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/*.pyc": true,
+        "**/__pycache__/": true
+    },
+    "python.linting.flake8Enabled": true,
 }

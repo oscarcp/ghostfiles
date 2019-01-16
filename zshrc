@@ -84,3 +84,4 @@ fi
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 export TERM="xterm-256color"
+alias l="exa -laUmgh --git --color-scale"
