@@ -1,0 +1,10 @@
+# SwayWM outputs configuration. For detailed information type "man sway"
+# For a list of devices run: swaymsg -t get_outputs
+# Author: Oscar Carballal Prego <oscar.carballal@protonmail.com>
+
+# Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
+output * bg /home/oscarcp/Pictures/wallhaven-23169.jpg fill
+
+# Disable main laptop screen (commented out, it is preferred to do it on demand
+# with: sway output[...])
+#output eDP-1 disable

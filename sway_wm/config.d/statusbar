@@ -1,0 +1,14 @@
+# SwayWM status bar configuration. For detailed information type "man sway-bar"
+# Author: Oscar Carballal Prego <oscar.carballal@protonmail.com>
+
+bar {
+    position top
+    font "Terminus (TTF)"
+    status_command while ~/.config/sway/scripts/sway_bar.sh; do sleep 1; done
+
+    colors {
+        statusline #ffffff
+        background #212121AA
+        inactive_workspace #323232AA #323232AA #5c5c5cAA
+    }
+}
