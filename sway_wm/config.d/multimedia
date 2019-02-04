@@ -1,0 +1,19 @@
+# SwayWM multimedia keys configuration. For detailed information type "man sway"
+# Author: Oscar Carballal Prego <oscar.carballal@protonmail.com>
+
+# Audio
+bindsym $mod+F1 exec pactl set-sink-mute `pactl list sinks short | grep analog | awk '{print $1}'` toggle
+bindsym $mod+F2 exec pactl set-sink-volume `pactl list sinks short | grep analog | awk '{print $1}'` -2%
+bindsym $mod+F3 exec pactl set-sink-volume `pactl list sinks short | grep analog | awk '{print $1}'` +2%
+
+# Media
+bindsym $mod+F4 exec playerctl previous
+bindsym $mod+F5 exec playerctl play-pause
+bindsym $mod+F6 exec playerctl next
+
+# Backlight
+bindsym $mod+F9 exec light -U 5
+bindsym $mod+F10 exec light -A 5
+
+# Screenshot
+bindsym $mod+Shift+S exec grim ~/Pictures/$(date '+%Y-%m-%d-%T')-screenshot.png
