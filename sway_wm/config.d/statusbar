@@ -4,11 +4,11 @@
 bar {
     position top
     font "Terminus (TTF)"
-    status_command while ~/.config/sway/scripts/sway_bar.sh; do sleep 1; done
+    status_command while ~/.config/sway/scripts/sway_bar.sh; do sleep 30; done
 
     colors {
         statusline #ffffff
-        background #212121AA
+        background #000000AA
         inactive_workspace #323232AA #323232AA #5c5c5cAA
     }
 }

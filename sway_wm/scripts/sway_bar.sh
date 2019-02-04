@@ -1,4 +1,4 @@
-date_formatted=$(date "+%F (w%V)")
+date_formatted=$(date "+%Y %b %d (w%-V)")
 time=$(date "+%H:%M")
 battery_charge=$(upower --show-info $(upower --enumerate | grep 'BAT') | egrep "percentage" | awk '{print $2}')
 battery_plug=$(upower --show-info $(upower --enumerate | grep 'BAT') | egrep "state" | awk '{print $2}')
@@ -13,4 +13,4 @@ fi
 
 weather=$(curl -Ss 'https://wttr.in/Pontevedra?0&T&Q&format=1')
 
-echo "$weather | 🔉 $audio_volume% | $battery_charge $battery_pluggedin | $date_formatted 🕘 $time"
+echo "$weather | $audio_volume% 🔉 | $battery_charge $battery_pluggedin | $date_formatted $time 🕘"
