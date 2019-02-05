@@ -1,14 +1,18 @@
 # SwayWM global configuration. For detailed information type "man sway"
 # Author: Oscar Carballal Prego <oscar.carballal@protonmail.com>
 
+# Main definitions
+
 # Logo key. Use Mod1 for Alt.
 set $mod Mod4
-
 # Your preferred terminal emulator
 set $term terminator
-
 # Your preferred application launcher
 set $menu rofi -terminal terminator -theme sidebar -show run
+# Default lockscreen background
+set $wallpaper ~/.config/sway/images/wallpaper.jpg
+# Default wallpaper
+set $lockscreenbg ~/.config/sway/images/lockscreen_background.png
 
 # Remove all borders from applications
 default_border none
