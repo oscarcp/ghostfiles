@@ -11,8 +11,7 @@ input "1739:30383:DELL07E6:00_06CB:76AF_Touchpad" {
 }
 
 input "1241:8211:daskeyboard" {
-    xkb_layout us,es
-    xkb_variant ,nodeadkeys
+    xkb_layout us,es,us(dvorak),es(dvorak)
     xkb_options grp:alt_shift_toggle
 }
 

@@ -8,6 +8,8 @@ configuration (usually **Mod+Shift+C**)
 If you have previous configurations this will overwrite them or collide with
 some of your shortcut definitions, make sure to backup your configurations first!
 
+![Screenshot](https://i.imgur.com/csqHVrx.jpg)
+
 # Requirements
 
 This configurations use the following software/fonts/things:
