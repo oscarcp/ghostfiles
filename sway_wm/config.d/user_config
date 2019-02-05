@@ -1,0 +1,20 @@
+# SwayWM custom user configurations. For detailed information type "man sway"
+# Author: Oscar Carballal Prego <oscar.carballal@protonmail.com>
+
+# Write here all your custom customizations for sway
+
+# Enable US and ES keyboard layouts, tap to click, natural scrolling, etc.
+input "1739:30383:DELL07E6:00_06CB:76AF_Touchpad" {
+    tap enabled
+    natural_scroll enabled
+    middle_emulation enabled
+}
+
+input "1241:8211:daskeyboard" {
+    xkb_layout us,es
+    xkb_variant ,nodeadkeys
+    xkb_options grp:alt_shift_toggle
+}
+
+# Disable main laptop screen
+output eDP-1 disable
