@@ -60,7 +60,8 @@ with some additions made by me.
 
 **NOTE**: The sound bindings expect to have at least one analog output, which
           they will use for sound. If your configuration differs, you have
-          to change the *soundsink* command in *config.d/multimedia*
+          to change the *pactl* command that detects the output number
+          in *config.d/multimedia*
 
 * **Mod + F1** Mute/Unmute sound
 * **Mod + F2** Decrease volume 2%
@@ -70,6 +71,7 @@ with some additions made by me.
 * **Mod + F6** Jump to next song
 * **Mod + F9** Decrease screen brightness 5%
 * **Mod + F10** Increase screen brightness 5%
+* **Alt + Shift** Change keyboard language
 
 # Resize mode
 
