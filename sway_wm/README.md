@@ -8,7 +8,7 @@ configuration (usually **Mod+Shift+C**)
 If you have previous configurations this will overwrite them or collide with
 some of your shortcut definitions, make sure to backup your configurations first!
 
-![Screenshot](https://i.imgur.com/csqHVrx.jpg)
+![Screenshot](https://i.postimg.cc/JtDW7Fmw/2019-02-05-17-13-14-screenshot.png)
 
 # Requirements
 
