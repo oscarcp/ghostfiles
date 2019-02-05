@@ -16,4 +16,5 @@ input "1241:8211:daskeyboard" {
 }
 
 # Disable main laptop screen
-output eDP-1 disable
+bindsym $mod+F7 output eDP-1 disable
+bindsym $mod+F8 output eDP-1 enable
